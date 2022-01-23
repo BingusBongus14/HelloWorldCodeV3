@@ -9,6 +9,12 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (Input.GetKeyDown("space"))
         {
             newText.text = "Hello, my name is Ethan Branham!";
@@ -17,11 +23,5 @@ public class NewBehaviourScript : MonoBehaviour
       {
           Application.Quit();
       }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
